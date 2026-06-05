@@ -60,6 +60,20 @@ const I = {
   shadow:       BASE + "8abfb54f-c0ef-4c7f-b9ca-c559395d79b2.jpg",
   voidImg:      BASE + "e0cacfde-f683-49be-aa4e-48a925d2c9a7.jpg",
   dragon:       BASE + "0003cfb3-dd3e-4be6-b57d-f70229959fd5.jpg",
+  poppy1:       BASE + "2e7a902e-5f71-4910-a3d5-4be3c7d2c6b9.jpg",
+  poppy2:       BASE + "681b4c10-b4e3-47a0-ba77-26413c62bf11.jpg",
+  poppy3:       BASE + "8b363aa2-7669-4e0f-be46-2f7db546c7a7.jpg",
+  roblox:       BASE + "8d59fa7e-3966-425c-8b2d-13195d81f2eb.jpg",
+  fnaf1:        BASE + "0c9681f8-6625-4379-990e-69f829fccf3c.jpg",
+  fnaf2:        BASE + "cf4d589f-61d6-4b0b-bb6d-dfc393775758.jpg",
+  fnaf3:        BASE + "e83287eb-86e5-44d9-9e57-faa548d17fc0.jpg",
+  fnaf4:        BASE + "30ecaafe-6d45-4bb6-81c7-26513a132fc3.jpg",
+  fnafSL:       BASE + "382d0476-285a-4982-a994-f01da964869b.jpg",
+  fnafPS:       BASE + "614247d0-1627-4ee5-b0bf-f971cf4354d8.jpg",
+  fnafUCN:      BASE + "5b4c00c3-7f03-410f-aaf2-535c9e8d8b08.jpg",
+  fnafSB:       BASE + "238ac1ab-402d-4cae-89e0-4d7ece249b27.jpg",
+  contentWarn:  BASE + "0fb08b22-7d99-451a-8fa6-83488e763a6a.jpg",
+  sosOps:       BASE + "e4429849-1c9c-4cbd-99c0-e41cfd74597c.jpg",
 };
 
 export const games: Game[] = [
@@ -140,6 +154,26 @@ export const games: Game[] = [
   { id: 64, title: "The Witness",             genre: "Головоломка", category: "puzzle",   rating: 4.6, reviews: 18900,  downloads: 890000,   size: "4 GB",   year: 2016, description: "Загадочный остров, заполненный головоломками с линиями. 500+ уровней, красота природы.",                      image: I.nomanssky,   tags: ["Остров","Линии","Медитация"] },
   { id: 65, title: "Baba Is You",             genre: "Головоломка", category: "puzzle",   rating: 4.7, reviews: 28600,  downloads: 1400000,  size: "1 GB",   year: 2019, description: "Изменяй правила игры прямо в игре. Абсолютно уникальная механика головоломок.",                               image: I.terraria,    tags: ["Правила","Инди","Уникальный"] },
   { id: 66, title: "Return of the Obra Dinn", genre: "Головоломка", category: "puzzle",   rating: 4.8, reviews: 35400,  downloads: 1600000,  size: "1 GB",   year: 2018, description: "Детектив на призрачном корабле. Воссоздай момент смерти каждого из 60 членов экипажа.",                       image: I.seaofthieves, tags: ["Детектив","Пираты","Логика"] },
+
+  // ── HORROR / POPPY PLAYTIME ──
+  { id: 67, title: "Poppy Playtime: Chapter 1", genre: "Хоррор",    category: "action",   rating: 4.5, reviews: 41200,  downloads: 3100000,  size: "4 GB",   year: 2021, description: "Исследуй заброшенную фабрику игрушек Playtime Co. Хаги Ваги поджидает тебя в каждом тёмном углу.", image: I.poppy1, tags: ["Хоррор","Головоломки","Инди"], isNew: false },
+  { id: 68, title: "Poppy Playtime: Chapter 2", genre: "Хоррор",    category: "action",   rating: 4.6, reviews: 38700,  downloads: 2800000,  size: "6 GB",   year: 2022, description: "Новые монстры, новые ловушки. Мамочка Длинные Ноги устраивает смертельные игры в глубинах фабрики.", image: I.poppy2, tags: ["Хоррор","Мамочка","Инди"] },
+  { id: 69, title: "Poppy Playtime: Chapter 3", genre: "Хоррор",    category: "action",   rating: 4.7, reviews: 29400,  downloads: 2100000,  size: "8 GB",   year: 2024, description: "Глубже в подземелья фабрики. Новые тайны, новые монстры и шокирующая правда о Playtime Co.", image: I.poppy3, tags: ["Хоррор","Загадки","Инди"], isNew: true },
+
+  // ── FNAF ──
+  { id: 70, title: "FNAF 1: Five Nights at Freddy's", genre: "Хоррор", category: "action", rating: 4.5, reviews: 87600, downloads: 6500000, size: "0.3 GB", year: 2014, description: "Выживи пять ночей в пиццерии, где аниматроники оживают. Классика инди-хоррора, породившая целую вселенную.", image: I.fnaf1, tags: ["Хоррор","Аниматроники","Классика"], isTop: true },
+  { id: 71, title: "FNAF 2",                         genre: "Хоррор", category: "action", rating: 4.4, reviews: 63400, downloads: 4800000, size: "0.5 GB", year: 2014, description: "Старые сломанные аниматроники вернулись. Новая пиццерия, больше монстров, маска Фредди — твоя защита.", image: I.fnaf2, tags: ["Хоррор","Аниматроники","Маска"] },
+  { id: 72, title: "FNAF 3",                         genre: "Хоррор", category: "action", rating: 4.3, reviews: 48200, downloads: 3600000, size: "0.5 GB", year: 2015, description: "Один аниматроник, один охранник. Спрингтрап прячется в тёмных коридорах аттракциона ужасов.", image: I.fnaf3, tags: ["Хоррор","Спрингтрап","Атмосфера"] },
+  { id: 73, title: "FNAF 4",                         genre: "Хоррор", category: "action", rating: 4.5, reviews: 52100, downloads: 4100000, size: "0.5 GB", year: 2015, description: "Кошмары приходят ночью в детскую спальню. Самая страшная часть серии — провери шкаф и под кроватью.", image: I.fnaf4, tags: ["Хоррор","Кошмары","Хардкор"] },
+  { id: 74, title: "FNAF: Sister Location",          genre: "Хоррор", category: "action", rating: 4.6, reviews: 58900, downloads: 4500000, size: "1 GB",   year: 2016, description: "Подземный объект, Цирк Беби и её коллеги. Новый стиль, новые механики, неожиданный сюжет.", image: I.fnafSL, tags: ["Хоррор","Цирк","Sci-Fi"] },
+  { id: 75, title: "FNAF: Pizzeria Simulator",       genre: "Хоррор", category: "action", rating: 4.5, reviews: 44300, downloads: 3800000, size: "0.5 GB", year: 2017, description: "Управляй пиццерией днём и выживай от аниматроников ночью. Бесплатно, неожиданно глубокий сюжет.", image: I.fnafPS, tags: ["Хоррор","Менеджмент","Бесплатно"] },
+  { id: 76, title: "FNAF: Ultimate Custom Night",    genre: "Хоррор", category: "action", rating: 4.7, reviews: 61200, downloads: 5200000, size: "0.5 GB", year: 2018, description: "50 аниматроников одновременно. Настрой сложность сам и попробуй пережить самую безумную ночь.", image: I.fnafUCN, tags: ["Хоррор","50 монстров","Хардкор"] },
+  { id: 77, title: "FNAF: Security Breach",          genre: "Хоррор", category: "action", rating: 4.4, reviews: 73800, downloads: 5900000, size: "13 GB",  year: 2021, description: "Огромный неоновый торговый центр, рок-звёзды аниматроники и один мальчик Грегори. Самая большая часть серии.", image: I.fnafSB, tags: ["Хоррор","Открытый","Неон"], isNew: true },
+
+  // ── ДРУГИЕ ──
+  { id: 78, title: "Roblox",                         genre: "Песочница", category: "puzzle", rating: 4.3, reviews: 520000, downloads: 45000000, size: "1 GB",  year: 2006, description: "Платформа с миллионами игр, созданных игроками. Обгони, постройся, сражайся — всё это бесплатно.", image: I.roblox, tags: ["Песочница","Бесплатно","Кооп"], isTop: true },
+  { id: 79, title: "SOS Ops!",                       genre: "Шутер",     category: "shooter", rating: 4.2, reviews: 8700, downloads: 340000, size: "5 GB",   year: 2023, description: "Тактический кооперативный шутер. Командная работа, зачистка объектов, реалистичная механика боёв.", image: I.sosOps, tags: ["Тактика","Кооп","Команда"], isNew: true },
+  { id: 80, title: "Content Warning",                genre: "Хоррор",    category: "action",  rating: 4.6, reviews: 54300, downloads: 3200000, size: "2 GB",  year: 2024, description: "Снимай монстров на камеру ради просмотров! Кооп на 4 игрока, подземелья, вирусные ролики и чистый хаос.", image: I.contentWarn, tags: ["Хоррор","Кооп","Юмор"], isNew: true, isTop: true },
 ];
 
 export const categories = [
